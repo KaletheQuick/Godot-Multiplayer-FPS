@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/controllers/puppet.gd" type="Script" id=5]
+
+[node name="puppet" type="Node"]
+script = ExtResource( 5 )

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/shell_insert.wav-0e97e26e13a1899df5ddf74b9a43f806.sample"
+
+[deps]
+
+source_file="res://sounds/boomstick/shell_insert.wav"
+dest_files=[ "res://.import/shell_insert.wav-0e97e26e13a1899df5ddf74b9a43f806.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

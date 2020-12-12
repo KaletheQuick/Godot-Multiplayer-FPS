@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/space_ambience.ogg-c0181ec31568ab3368213bd788cfd159.oggstr"
+
+[deps]
+
+source_file="res://sounds/drones/space_ambience.ogg"
+dest_files=[ "res://.import/space_ambience.ogg-c0181ec31568ab3368213bd788cfd159.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pulsating_breathe.ogg-cd30a8d7799502767a6126fb24ef9802.oggstr"
+
+[deps]
+
+source_file="res://sounds/drones/pulsating_breathe.ogg"
+dest_files=[ "res://.import/pulsating_breathe.ogg-cd30a8d7799502767a6126fb24ef9802.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

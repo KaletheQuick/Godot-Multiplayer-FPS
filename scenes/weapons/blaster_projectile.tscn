@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://sounds/weapons/blaster/projectile_noise.ogg" type="AudioStream" id=1]
+[ext_resource path="res://scenes/weapons/blaster_projectile.gd" type="Script" id=2]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0, 0, 0, 1 )
+emission_enabled = true
+emission = Color( 1, 0.0313726, 0.0313726, 1 )
+emission_energy = 16.0
+emission_operator = 0
+emission_on_uv2 = false
+
+[sub_resource type="CapsuleMesh" id=2]
+material = SubResource( 1 )
+radius = 0.025
+mid_height = 0.5
+
+[node name="projectile" type="Spatial"]
+script = ExtResource( 2 )
+
+[node name="mesh" type="MeshInstance" parent="."]
+mesh = SubResource( 2 )
+material/0 = null
+
+[node name="noise" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource( 1 )
+unit_size = 2.0
+pitch_scale = 2.0
+autoplay = true
+bus = "Sounds"
+doppler_tracking = 2
+
+[node name="ray_cast" type="RayCast" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.25 )
+enabled = true
+cast_to = Vector3( 0, 0, -0.5 )
+collision_mask = 5

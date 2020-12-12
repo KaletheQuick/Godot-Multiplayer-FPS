@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/spraks.ogg-5f1750540d25999923b8d7015ab2416b.oggstr"
+
+[deps]
+
+source_file="res://sounds/damage/spraks.ogg"
+dest_files=[ "res://.import/spraks.ogg-5f1750540d25999923b8d7015ab2416b.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

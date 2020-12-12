@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/props/audio_player_lifetime.gd" type="Script" id=1]
+
+
+
+
+
+
+
+
+
+[node name="timed_audio_player" type="AudioStreamPlayer3D"]
+script = ExtResource( 1 )

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/barefoot_2.wav-f6fccf8f7ccf29d166a36f77214c0563.sample"
+
+[deps]
+
+source_file="res://sounds/footsteps/barefoot_2.wav"
+dest_files=[ "res://.import/barefoot_2.wav-f6fccf8f7ccf29d166a36f77214c0563.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
