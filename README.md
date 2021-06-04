@@ -1,23 +1,9 @@
-# Multiplayer FPS
+# Godot Multiplayer FPS
 
-Description
-===========
+<a href="https://www.buymeacoffee.com/ic3bug"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a cookie&emoji=🍪&slug=ic3bug&button_colour=5F7FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00"></a>
 
-Fun little game prototype made with Godot game engine. Features: multiplayer, bots, satisfying gunplay. Port-forwarding required to play online.
-
-Known issues
-====
-
-- Crashes with yet unknown reason
-- No game configuration
-- Netcode works by sending entire player state, so it's highly cheatable for now
-
-Future plans
-====
-
-- Better netcode with full server authority and client-side prediction
-- Various settings for graphics and gameplay
-- More weapons and a descent game mode differentiation
+Multiplayer game prototype made with Godot game engine. 
+Features: animated characters, satisfying gunplay, particles, ai. 
 
 Controls
 ====
